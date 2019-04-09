@@ -41,4 +41,17 @@ function mouseClicked() {
  speedZ = round(mouseZ/100);
  speedA = round(mouseA/100);
  speedT = round(mouseT/100);
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
