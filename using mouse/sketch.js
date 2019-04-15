@@ -9,7 +9,7 @@ function draw() {
 
 function mouseMoved() {
   // This function is called whenever the mouse is moved
-  rect(mouseX, mouseY, 20, 20); // Draw a square
+  rect(mouseX, mouseY, 50, 50); // Draw a square
 }
 
 function mouseClicked() {
@@ -17,10 +17,12 @@ function mouseClicked() {
   // (but the mouse must not be moving at the same time)
   // and will change the fill colour randomly
   function draw() {
-  ellipse(mouseX, mouseY, 20, 20); // Draw a circle
+  ellipse(mouseX, mouseY, 50, 50); // Draw a circle
   if (mouseIsPressed) {
     // When the mouse button is pressed
     // change the colour randomly
-    fill(random(255), random(255), random(150));
+    fill(random(155), random(355), random(250));
   }
+}
+  fill(random(155), random(755), random(215));
 }
