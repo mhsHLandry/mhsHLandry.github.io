@@ -1,10 +1,14 @@
+let bg;
+
 function setup() {
-  var firstCanvas = createCanvas(800, 600);  // create a square window for drawing
+  bg = loadImage('Image/REMMY.jpg');
+ createCanvas(600, 600);  // create a square window for drawing
 
 }
 
 function draw() {
   // This function does nothing, but it must exist.
+  background(bg);
 }
 
 function mouseMoved() {
@@ -17,6 +21,7 @@ function mouseClicked() {
   // (but the mouse must not be moving at the same time)
   // and will change the fill colour randomly
   function draw() {
+    background(bg);
   ellipse(mouseX, mouseY, 50, 50); // Draw a circle
   if (mouseIsPressed) {
     // When the mouse button is pressed
