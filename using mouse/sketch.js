@@ -1,8 +1,12 @@
 let bg;
+function preload(){
+  bg = loadImage('Image/REMMY.jpg');
 
+}
 function setup() {
   bg = loadImage('Image/REMMY.jpg');
  createCanvas(600, 600);  // create a square window for drawing
+
 
 }
 
