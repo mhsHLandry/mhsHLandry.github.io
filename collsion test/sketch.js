@@ -9,15 +9,16 @@ let ySpeed = 5;
 //not collided
 let hit = false;
 function preload(){
-  bg = loadImage('Image/REMMY.jpg');
+  bg = loadImage('REMMY.png');
 }
 function setup() {
   createCanvas(800,700 );
-    bg = loadImage('Image/REMMY.jpg');
+    bg = loadImage('REMMY.png');
   }
 
 function draw() {
-
+image(img,0,0);
+noLoop();
   //check for collision
   hit = collideRectRect(x1,y,size,size,x2,y,size,size);
 
