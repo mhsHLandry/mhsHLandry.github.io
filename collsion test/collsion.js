@@ -20,7 +20,7 @@ mySound.play();
   }
 
 function draw() {
-image(img,0,0);
+image('REMMY.png',0,0);
 noLoop();
   //check for collision
   hit = collideRectRect(x1,y,size,size,x2,y,size,size);
